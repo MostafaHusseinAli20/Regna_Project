@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regna</title>
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts "Poppins" -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate Css Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap Link Css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Link Custom Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg py-4 text-light navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#team">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Drop Down
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-dark dropdown-toggle ps-3"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Drop Down 2
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                      <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="" id="hero">
+      <div class="hero-container animate__backInDown">
+        <h1 class="text-light">Welcome to Regna</h1>
+        <h2 class="text-light opacity-75">
+          We are team of talented designers making websites with Bootstrap
+        </h2>
+        <a href="#about" class="btn text-light">Get Started</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about container" id="about">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h1>Few Words About Us</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <!-- One Div -->
+          <div class="d-flex">
+            <div>
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div>
+              <h4 type="button" class="border-0 bg-white fs-5 pt-4">
+                EIUSMOD TEMPOR
+              </h4>
+              <p>
+                Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi
+              </p>
+            </div>
+          </div>
+          <!-- Two Div -->
+          <div class="d-flex">
+            <div>
+              <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <div>
+              <h4 type="button" class="border-0 bg-white fs-5 mt-4">
+                MAGNI DOLORES
+              </h4>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+          <!-- Three Div -->
+          <div class="d-flex">
+            <div>
+              <i class="fa-solid fa-ticket"></i>
+            </div>
+            <div>
+              <h4 type="button" class="border-0 bg-white fs-5 mt-4">
+                DOLOR SITEMA
+              </h4>
+              <p class="mb-5">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="assets/img/about-img.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Fact Div -->
+    <div class="fact text-center">
+      <div class="main-text">
+        <h1>FACTS</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+      <div class="container statistics">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h2>232</h2>
+            <p>Clients</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h2>534</h2>
+            <p>Projects</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h2>1463</h2>
+            <p>Hours Of Support</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h2>42</h2>
+            <p>Hard Workers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+     <section class="services container" id="services">
+      <div class="main-text text-center">
+        <h1>SERVICES</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+
+      <!-- Card Services -->
+      <div class="card-services text-center">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h5 class="card-title">LOREM IPSUM</h5>
+                    <p class="card-text pb-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+            </div>
+          
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h5 class="card-title">DOLOR SITEMA</h5>
+                    <p class="card-text pb-4">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    
+                    <h5 class="card-title">SED UT PERSPICIATIS</h5>
+                    <p class="card-text pb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-ticket"></i>
+                    <h5 class="card-title">MAGNI DOLORES</h5>
+                    <p class="card-text pb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-sun"></i>
+                    <h5 class="card-title">NEMO ENIM</h5>
+                    <p class="card-text pb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-clock"></i>
+                    <h5 class="card-title">EIUSMOD TEMPOR</h5>
+                    <p class="card-text pb-4">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                  </div>
+                </div>
+          </div>
+      </div>
+     </section>
+
+     <!-- Action Section -->
+      <section class="action">
+          <div class="container">
+            <div class="action-container">
+              <h1>Call To Action</h1>
+              <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                  <button>CALL TO ACTION</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Portfolio Section -->
+       <section class="portfolio" id="portfolio">
+        <div class="container">
+        <div class="main-text text-center">
+          <h1>PORTFOLIO</h1>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptatem accusantium doloremque</p>
+        </div>
+        <div class="menuTab">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="active" id="pills-home-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-home" type="button" role="tab" 
+              aria-controls="pills-home" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="" id="pills-profile-tab" 
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile" type="button" role="tab" 
+              aria-controls="pills-profile" aria-selected="false">App</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="" id="pills-contact-tab" 
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact" type="button" role="tab" 
+              aria-controls="pills-contact" aria-selected="false">Card</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="" id="pills-Web-tab" 
+              data-bs-toggle="pill"
+              data-bs-target="#pills-Web" type="button" role="tab" 
+              aria-controls="pills-Web" aria-selected="false">Web</button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+            aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="img-all">
+                <div class="mx-auto">
+                  <div>
+                    <img src="assets/img/portfolio/portfolio-1.jpg"
+                    width="400" alt="">
+                    <div class="content">
+                      
+                    </div>
+                </div>
+                  </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-2.jpg"
+                width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-3.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-4.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-5.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-6.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-7.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-8.jpg"
+                    width="400" alt="">
+               </div>
+               <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-9.jpg"
+                    width="400" alt="">
+               </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="img-all">
+                <div class="mx-auto">
+                  <img src="assets/img/portfolio/portfolio-1.jpg"
+                    width="400" alt="">
+                </div>
+                <div class="mx-auto">
+                  <img src="assets/img/portfolio/portfolio-3.jpg"
+                    width="400" alt="">
+                </div>
+                <div class="mx-auto">
+                  <img src="assets/img/portfolio/portfolio-6.jpg"
+                    width="400" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+            aria-labelledby="pills-contact-tab" tabindex="0">
+            <div class="img-all">
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-4.jpg"
+                  width="400" alt="">
+              </div>
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-7.jpg"
+                  width="400" alt="">
+              </div>
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-8.jpg"
+                  width="400" alt="">
+              </div>
+            </div>
+          </div>
+            <div class="tab-pane fade" id="pills-Web" role="tabpanel"
+            aria-labelledby="pills-Web-tab" tabindex="0">
+            <div class="img-all">
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+              </div>
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-5.jpg" alt="">
+              </div>
+              <div class="mx-auto">
+                <img src="assets/img/portfolio/portfolio-9.jpg" alt="">
+              </div>
+              
+            
+            
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Team Section -->
+       <section class="team container" id="team">
+        <div class="main-text text-center">
+          <h1>TEAM</h1>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="team-content">
+          <div class="row text-center">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/img/team-1.jpg" alt="team 1">
+              <div class="img-content text-center">
+                <h4>Walter White</h4>
+                <p>Chief Executive Officer</p>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/img/team-2.jpg" alt="team 2">
+              <div class="img-content text-center">
+                <h4>Sarah Jhinson</h4>
+                <p>Product Manager</p>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/img/team-3.jpg" alt="team 3">
+              <div class="img-content text-center">
+                <h4>William Anderson</h4>
+                <p>CTO</p>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/img/team-4.jpg" alt="team 4">
+              <div class="img-content text-center">
+                <h4>Amanda Jepson</h4>
+                <p>Accountant</p>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- Contact Setion -->
+        <section class="contact" id="contact">
+          <div class="main-text text-center">
+            <h1>CONTACT</h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          </div>
+          <div class="contatc-content container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex mt-4">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h4>A108 Adam Street <br>
+                    New York, NY 535022</h4>
+                </div>
+                <div class="d-flex mt-4">
+                  <i class="fa-regular fa-envelope"></i>
+                  <h4>info@example.com</h4>
+                </div>
+                <div class="d-flex mt-4">
+                  <i class="fa-solid fa-mobile"></i>
+                  <h4>+1 5589 55488 55s</h4>
+                </div>
+                <div class="social-links">
+                  <i class="fa-brands fa-twitter mx-1"></i>
+                <i class="fa-brands fa-facebook mx-1 "></i>
+                <i class="fa-brands fa-instagram mx-1"></i>
+                <i class="fa-brands fa-pinterest mx-1"></i>
+                <i class="fa-brands fa-linkedin mx-1"></i>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <form>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control"
+                    placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="email" class="form-control"
+                    placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control"
+                    placeholder="Subject" required>
+                  </div>
+                  <div class="mt-3">
+                    <textarea class="form-control" placeholder="Message"
+                    id="exampleFormControlTextarea1" rows="3">
+                  </textarea>
+                  </div>
+                  <div class="mt-3 text-center">
+                    <input type="button" value="Send Message">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="text-center footer-content">
+              <h5>&copy; Copyright <strong>Regna</strong>. All Rights Reserved <br>
+                <span class="design">Designed by</span><span> Mostafa Hussein</span></h5>
+            </div>
+           </footer>
+        </section>
+
+        <!-- Footer -->
+         
+    <!-- Boostarp Script Js -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

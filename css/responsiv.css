@@ -1,0 +1,39 @@
+@media (max-width:1650px) {
+    .about img {
+        width: 500px;
+    }
+}
+
+@media (max-width:1280px) {
+    .action {
+        min-height: 40vh !important;
+    }
+}
+
+@media (max-width:1024px) {
+    
+    .about img {
+        width: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    .action {
+        min-height: 56vh !important;
+    }
+    .about img {
+        width: 450px;
+    }
+}
+
+@media (max-width:475px) {
+    .about img {
+        width: 350px;
+    }
+}
+
+@media (max-width:385px) {
+    .about img {
+        width: 300px;
+    }
+}
